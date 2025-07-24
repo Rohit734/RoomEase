@@ -1,4 +1,5 @@
-# ✅ Trea AI Rules for RoomEase 
+# ✅ Trea AI Rules for RoomEase Monorepo
+
 ## 1. 🧠 Context Awareness
 - Always retain and apply knowledge from:
   - `docs/fullstack-architecture.md`
@@ -48,3 +49,29 @@ Each module should contain:
 <type>(scope): <short description>
 # Example:
 feat(rooms): add booking confirmation logic with webhook trigger
+```
+
+## 7. 🔐 Business Logic Enforcement
+- Room numbers are immutable
+- Location & contact visible only after payment
+- Escrow must follow 24h response window
+
+## 8. 🧭 UI Rules
+- Minimal Airbnb-style
+- Use message templates
+- Respect PRD-specified screens
+
+## 9. 🔄 Prompting Etiquette
+If unsure, ask:
+- Should this be shared or local?
+- Reuse or recreate this widget/module?
+
+## 10. 📋 Follow the Project Plan Step-by-Step
+- Always work from `project-plan.md`
+- Do not jump phases
+- Confirm each phase/module before proceeding
+
+## 11. ❌ Forbidden Behaviors
+- ❌ Don’t use Django/React/Node
+- ❌ Don’t modify `.env`, `.gitignore`, or docs without permission
+- ❌ Don’t place logic inside routers
