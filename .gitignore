@@ -2,7 +2,7 @@
 venv/
 
 # Flutter
-.DS_Store
+*.DS_Store
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
